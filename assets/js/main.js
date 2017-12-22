@@ -36,7 +36,7 @@ jQuery(document).ready(function ($) {
 		url: url,
 		method: "GET",
 		dataType: "json",
-		data: $form.serializeObject()
+		data: $form.serializeObject = function()
 		}).success(
 		// do something
 		);
