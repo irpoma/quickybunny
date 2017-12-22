@@ -132,7 +132,7 @@ jQuery(document).ready(function ($) {
 		$('#submit').on('click', function(e) {
 		e.preventDefault();
 		var jqxhr = $.ajax({
-		url: https://script.google.com/macros/s/AKfycbytQe1ZCBms5DSYF8VPfSOODHlSDkVZ3oxkzjKJz9iyKPVu5vc/exec,
+		url: https://irpoma.github.io/quickybunny,
 		method: "GET",
 		dataType: "json",
 		data: $form.serializeObject ()
@@ -141,8 +141,6 @@ jQuery(document).ready(function ($) {
 		);
 		})
 
-	jQuery.fn.serializeObject = function () {
-		};
 	
     //End
 });
