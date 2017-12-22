@@ -520,9 +520,10 @@ input:-ms-input-placeholder {
 
 .main_menu_bg{
 	margin-top:0px;
+	background-color: #feed32;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent;
+    background-color: #feed32;
     border-color: transparent;
 	transition:.6s;
 	margin-top: 16px;
