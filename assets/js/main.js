@@ -129,10 +129,10 @@ jQuery(document).ready(function ($) {
 	var $form = $('form#formid'),
 		url = 'https://script.google.com/macros/s/AKfycbytQe1ZCBms5DSYF8VPfSOODHlSDkVZ3oxkzjKJz9iyKPVu5vc/exec'
 
-		$('#submit-form').on('click', function(e) {
+		$('#submit').on('click', function(e) {
 		e.preventDefault();
 		var jqxhr = $.ajax({
-		url: url,
+		url: https://script.google.com/macros/s/AKfycbytQe1ZCBms5DSYF8VPfSOODHlSDkVZ3oxkzjKJz9iyKPVu5vc/exec,
 		method: "GET",
 		dataType: "json",
 		data: $form.serializeObject ()
