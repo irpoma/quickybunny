@@ -666,7 +666,6 @@ input:-ms-input-placeholder {
 /* What i do */
 
 .whatido{
-	background:#004c9805;
 	padding:80px 0px;
 }
 .whatido .head_title h2{}
@@ -763,7 +762,7 @@ input:-ms-input-placeholder {
 /* contact section */
 .contact{
     padding: 80px 0px 20px 0px;
-	background:#d2eae3;
+	background:#004c9805;
 }
 
 .contact_socail_bookmark{
