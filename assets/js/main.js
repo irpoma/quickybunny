@@ -142,7 +142,7 @@ jQuery(document).ready(function ($) {
 		})
 
 	jQuery.fn.serializeObject = function () {
-		});
+		};
 	
     //End
 });
