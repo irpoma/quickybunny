@@ -27,20 +27,7 @@ jQuery(document).ready(function ($) {
     });
 
 
-		var $form = $('form#formid'),
-		url = 'https://script.google.com/macros/s/AKfycbytQe1ZCBms5DSYF8VPfSOODHlSDkVZ3oxkzjKJz9iyKPVu5vc/exec'
-
-		$('#submit-form').on('click', function(e) {
-		e.preventDefault();
-		var jqxhr = $.ajax({
-		url: url,
-		method: "GET",
-		dataType: "json",
-		data: $form.serializeObject = function()
-		}).success(
-		// do something
-		);
-		})
+		
 
 
 
@@ -138,6 +125,21 @@ jQuery(document).ready(function ($) {
         $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
     });
+	
+	var $form = $('form#formid'),
+		url = 'https://script.google.com/macros/s/AKfycbytQe1ZCBms5DSYF8VPfSOODHlSDkVZ3oxkzjKJz9iyKPVu5vc/exec'
+
+		$('#submit-form').on('click', function(e) {
+		e.preventDefault();
+		var jqxhr = $.ajax({
+		url: url,
+		method: "GET",
+		dataType: "json",
+		data: $form.serializeObject ()
+		}).success(
+		// do something
+		);
+		})
 
     //End
 });
