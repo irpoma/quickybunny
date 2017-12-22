@@ -11,7 +11,7 @@ Author URI: http://bootstrapthemes.co
 
 html,
 body {
-    background-color: #fef9fd;
+    background-color: #004c9805;
     font-size: 15px;
     color: #565656;
     width: 100%;
@@ -557,7 +557,7 @@ input:-ms-input-placeholder {
 
 /* Home Section */
 .home{
-	background:#FAD000;
+	background:#004d97;
 }
 
 
@@ -666,7 +666,7 @@ input:-ms-input-placeholder {
 /* What i do */
 
 .whatido{
-	background:#fef9fd;
+	background:#004c9805;
 	padding:80px 0px;
 }
 .whatido .head_title h2{}
