@@ -126,7 +126,7 @@ jQuery(document).ready(function ($) {
         return false;
     });
 	
-	var $form = $('form#formid'),
+	var $form = $('form#form-id'),
 		url = 'https://script.google.com/macros/s/AKfycbytQe1ZCBms5DSYF8VPfSOODHlSDkVZ3oxkzjKJz9iyKPVu5vc/exec'
 
 		$('#submit').on('click', function(e) {
