@@ -132,12 +132,12 @@ jQuery(document).ready(function ($) {
 		$('#submit').on('click', function(e) {
 		e.preventDefault();
 		var jqxhr = $.ajax({
-		url: https://irpoma.github.io/quickybunny,
+		url: "https://irpoma.github.io/quickybunny",
 		method: "GET",
 		dataType: "json",
 		data: $form.serializeObject ()
 		}).success(
-		// do something
+
 		);
 		})
 
