@@ -132,7 +132,7 @@ jQuery(document).ready(function ($) {
 		$('#submitt').on('click', function(e) {
 		e.preventDefault();
 		var jqxhr = $.ajax({
-		url: "https://script.google.com/macros/s/AKfycbytQe1ZCBms5DSYF8VPfSOODHlSDkVZ3oxkzjKJz9iyKPVu5vc/exec",
+		url: "url",
 		method: "GET",
 		dataType: "json",
 		data: $form.serializeObject ()
